@@ -1,0 +1,35 @@
+.crew_bg_image {
+  --bg-image: url("./assets/crew/background-crew-mobile.jpg");
+}
+
+@media screen and (min-width: 620px) {
+  .crew_bg_image {
+    --bg-image: url("./assets/crew/background-crew-tablet.jpg");
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .crew_bg_image {
+    --bg-image: url("./assets/crew/background-crew-desktop.jpg");
+  }
+}
+
+.crew_switcher_button {
+  background-color: var(--active-bg, black);
+  border: 1.5px solid white;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  padding: 0;
+}
+.active_crew_switcher_button {
+  --active-bg: white;
+}
+
+.crew_image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
