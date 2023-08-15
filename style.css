@@ -236,8 +236,9 @@ nav > ul > li > a > span {
   font-size: var(--fs-36);
 }
 .text_9 {
-  font-size: var(--fs-144, 144px);
+  font-size: var(--fs-72);
 }
+
 @media screen and (min-width: 620px) {
   .text_5 {
     font-size: var(--fs-36);
@@ -252,7 +253,7 @@ nav > ul > li > a > span {
     font-size: var(--fs-72);
   }
   .text_9 {
-    font-size: var(--fs-144, 144px);
+    font-size: var(--fs-144);
   }
 }
 
