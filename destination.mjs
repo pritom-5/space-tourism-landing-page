@@ -1,3 +1,9 @@
+//test section
+const new_element = document.createElement("img");
+new_element.setAttribute("src", "./assets/destination/image-moon.webp");
+document.querySelector("body").appendChild(new_element);
+////////
+
 import { json_data } from "./data.mjs";
 const { destinations } = json_data;
 
